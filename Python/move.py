@@ -18,6 +18,6 @@ def distribute_images(source_folder, target_folders, images_per_folder):
 if __name__ == "__main__":
     source_folder = r"C:\Users\lilia\OneDrive\Escritorio\EPICS Fall 2023"
     target_folders = ["folder1", "folder2", "folder3", "folder4", "folder5"]
-    images_per_folder = 10  # Adjust this based on the number of images you want in each folder
+    images_per_folder = 10  # Adjust this based on the number of images you want in each folder hanz
 
     distribute_images(source_folder, target_folders, images_per_folder)
